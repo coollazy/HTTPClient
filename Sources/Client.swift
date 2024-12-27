@@ -9,7 +9,7 @@ public class Client: Session {
     
     private var session: URLSession
     
-    init(configuration: URLSessionConfiguration = .default) {
+    public init(configuration: URLSessionConfiguration = .default) {
         self.session = URLSession(configuration: configuration)
     }
     
