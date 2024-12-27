@@ -5,7 +5,7 @@ import Foundation
 import HTTPType
 
 public class Client: Session {
-    static var shared = Client()
+    public static var shared = Client()
     
     private var session: URLSession
     
